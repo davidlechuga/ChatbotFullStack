@@ -1,0 +1,59 @@
+curl -X POST -H "Content-Type: application/json" -d '{
+    "get_started": {
+        "payload": "GET_STARTED_Full-Stack MERN"
+    }
+}' "https://graph.facebook.com/v2.6/me/messenger_profile?access_token=EAAIui9I9zdsBAF3bozWOp9WKfeSGuJFjMVgz74Y2Cn5eyje0L2YQKNtYQoWi3TOsHaZBmcfTSlZA2JpZA0IcQeEiZBUU507RbGhkW2cGBSvIWNfyjojRmibzGd9IHZAwbO08bbY4NRZCsIWpSa8oL10XyyMVjfiijXkwuNAcFWjYf02JVHjifo"
+
+
+curl -X POST -H "Content-Type: application/json" -d '{
+    "greeting": [
+        {
+            "locale": "default",
+            "text": "Hola {{user_first_name}}, soy Full-Stack MERN y te recomiendo los mejores cursos en la Fes Acatlán"
+        },
+        {
+            "locale": "en_US",
+            "text": "Hi {{user_first_name}}"
+        }
+    ]
+}' "https://graph.facebook.com/v2.6/me/messenger_profile?access_token=EAAIui9I9zdsBAF3bozWOp9WKfeSGuJFjMVgz74Y2Cn5eyje0L2YQKNtYQoWi3TOsHaZBmcfTSlZA2JpZA0IcQeEiZBUU507RbGhkW2cGBSvIWNfyjojRmibzGd9IHZAwbO08bbY4NRZCsIWpSa8oL10XyyMVjfiijXkwuNAcFWjYf02JVHjifo"
+
+
+curl -X POST -H "Content-Type: application/json" -d '{
+    "persistent_menu": [
+        {
+            "locale": "default",
+            "composer_input_disabled": false,
+            "call_to_actions": [
+                {
+                    "title": "Full-StackMERN",
+                    "type": "nested",
+                    "call_to_actions": [
+                        {
+                            "title": "Acerca",
+                            "type": "postback",
+                            "payload": "ABOUT_PAYLOAD"
+                        }
+                    ]
+                },
+                {
+                    "title": "MenudeProductos",
+                    "type": "nested",
+                    "call_to_actions": [
+                        {
+                            "title": "DesarrolloWeb",
+                            "type": "postback",
+                            "payload": "DESARROLLO_PAYLOAD"
+                        }
+                    ]
+                },
+                {
+                    "title": "PaginaWeb",
+                    "type": "web_url",
+                    "url": "https://google.com.mx",
+                    "webview_height_ratio": "full"
+                }
+            ]
+        }
+    ]
+}' "https://graph.facebook.com/v2.6/me/messenger_profile?access_token=EAAIui9I9zdsBAF3bozWOp9WKfeSGuJFjMVgz74Y2Cn5eyje0L2YQKNtYQoWi3TOsHaZBmcfTSlZA2JpZA0IcQeEiZBUU507RbGhkW2cGBSvIWNfyjojRmibzGd9IHZAwbO08bbY4NRZCsIWpSa8oL10XyyMVjfiijXkwuNAcFWjYf02JVHjifo"
