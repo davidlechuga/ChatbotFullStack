@@ -3,7 +3,9 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const request = require('request');
-const access_token = "EAAIui9I9zdsBAMB8ZBumDCUBXY3w67fcHgMaUeNpXspf6m8Bw2vEL0YlQl11UVosEHoXmPmO33Y9ea3rhhaZCZBqty3I4bKElvbZCzeZCnZAbq3efJdQzEiaMBnONB1QyUe08B6qgbgdl1dH3brotPX0ZAGT9A7NKJXjRYJGjFFZA3eu6NZBFQMcx"
+require ('dotenv').config()
+
+const access_token = process.env.ACCESS_TOKEN
 
 const app = express();
 
