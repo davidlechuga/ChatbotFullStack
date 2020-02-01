@@ -2,7 +2,7 @@ curl -X POST -H "Content-Type: application/json" -d '{
     "get_started": {
         "payload": "GET_STARTED_Full-Stack MERN"
     }
-}' "https://graph.facebook.com/v2.6/me/messenger_profile?access_token=EAAIui9I9zdsBANHeJ22X7c8ZBVZAsbQyxJQaHdaflgGLbom9AdE9JPBBf5x8KZClHbcnm7ZCPYZCMK5XWJdxkVunk5gjWdyzgdXN1PqrDmQIAQZBVebKGifQMl2vSoTQbfCz99uqsrsIekHVvjdhYq3XdLJpW1tLNwOaGxPpCO9l8ccO6yG5si"
+}' "https://graph.facebook.com/v2.6/me/messenger_profile?access_token=EAAIui9I9zdsBADFNsgY0tVy9tZBXj4BXUE00jLmMCBEY9BirODHIZBvhu3vTwX31aw0I59HcVWJ9zok7GGix0yZCas1oM8HhXZC0MEzO8ZAZAcBszCEVVvPM42iiZBZAcCdqqImZAfiCZAOK25cPAfI9WHMfgDIssgS4qWCmZBEqBlpbRNBDJ8EFda9"
 
 
 curl -X POST -H "Content-Type: application/json" -d '{
@@ -16,7 +16,7 @@ curl -X POST -H "Content-Type: application/json" -d '{
             "text": "Hi {{user_first_name}}"
         }
     ]
-}' "https://graph.facebook.com/v2.6/me/messenger_profile?access_token=EAAIui9I9zdsBANHeJ22X7c8ZBVZAsbQyxJQaHdaflgGLbom9AdE9JPBBf5x8KZClHbcnm7ZCPYZCMK5XWJdxkVunk5gjWdyzgdXN1PqrDmQIAQZBVebKGifQMl2vSoTQbfCz99uqsrsIekHVvjdhYq3XdLJpW1tLNwOaGxPpCO9l8ccO6yG5si"
+}' "https://graph.facebook.com/v2.6/me/messenger_profile?access_token=EAAIui9I9zdsBADFNsgY0tVy9tZBXj4BXUE00jLmMCBEY9BirODHIZBvhu3vTwX31aw0I59HcVWJ9zok7GGix0yZCas1oM8HhXZC0MEzO8ZAZAcBszCEVVvPM42iiZBZAcCdqqImZAfiCZAOK25cPAfI9WHMfgDIssgS4qWCmZBEqBlpbRNBDJ8EFda9"
 
 
 curl -X POST -H "Content-Type: application/json" -d '{
@@ -56,5 +56,5 @@ curl -X POST -H "Content-Type: application/json" -d '{
             ]
         }
     ]
-}' "https://graph.facebook.com/v2.6/me/messenger_profile?access_token=EAAIui9I9zdsBANHeJ22X7c8ZBVZAsbQyxJQaHdaflgGLbom9AdE9JPBBf5x8KZClHbcnm7ZCPYZCMK5XWJdxkVunk5gjWdyzgdXN1PqrDmQIAQZBVebKGifQMl2vSoTQbfCz99uqsrsIekHVvjdhYq3XdLJpW1tLNwOaGxPpCO9l8ccO6yG5si"
+}' "https://graph.facebook.com/v2.6/me/messenger_profile?access_token=EAAIui9I9zdsBADFNsgY0tVy9tZBXj4BXUE00jLmMCBEY9BirODHIZBvhu3vTwX31aw0I59HcVWJ9zok7GGix0yZCas1oM8HhXZC0MEzO8ZAZAcBszCEVVvPM42iiZBZAcCdqqImZAfiCZAOK25cPAfI9WHMfgDIssgS4qWCmZBEqBlpbRNBDJ8EFda9"
 
