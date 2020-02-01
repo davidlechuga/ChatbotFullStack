@@ -4,7 +4,8 @@
   "description": "bot of messenger by our clients",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
   },
   "author": "davidlechugahuerta",
   "license": "MIT",
@@ -16,5 +17,8 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.2"
+  },
+  "engines": {
+    "node": "8.9.1"
   }
 }
